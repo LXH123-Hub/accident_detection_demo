@@ -1,0 +1,15 @@
+# 核心推理依赖
+numpy>=1.24.0
+Pillow>=9.4.0
+opencv-python>=4.8.0
+pyyaml>=6.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+ultralytics-thop>=2.0.0
+
+# Web UI
+gradio>=4.0.0
+
+# 注意: PyTorch 需要单独安装（根据 CUDA 版本选择）
+# 请参考 README.md 中的安装说明
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
